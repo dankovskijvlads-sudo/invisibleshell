@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "invisibleshell",
+  "version": "${version}",
+  "name": "Invisible Shell",
+  "description": "Press J to show outlines of invisible players within a set radius.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.invisibleshell.InvisibleShellClient"]
+  },
+  "mixins": ["invisibleshell.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
